@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShopItemTable should render <ShopItemTable /> 1`] = `
+"<ForwardRef striped={true} bordered={true} hover={true}>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Quality
+      </th>
+      <th>
+        Sell In Days
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className=\\"item-row\\">
+      <td>
+        Aged Brie
+      </td>
+      <td>
+        3
+      </td>
+      <td>
+        60
+      </td>
+    </tr>
+    <tr className=\\"item-row\\">
+      <td>
+        Backstage passes to a TAFKAL80ETC concert
+      </td>
+      <td>
+        8
+      </td>
+      <td>
+        15
+      </td>
+    </tr>
+    <tr className=\\"item-row\\">
+      <td>
+        Sulfuras, Hand of Ragnaros
+      </td>
+      <td>
+        80
+      </td>
+      <td>
+        1000
+      </td>
+    </tr>
+    <tr className=\\"item-row\\">
+      <td>
+        Generic, very boring item
+      </td>
+      <td>
+        2
+      </td>
+      <td>
+        100
+      </td>
+    </tr>
+    <tr className=\\"item-row\\">
+      <td>
+        Conjured Item
+      </td>
+      <td>
+        40
+      </td>
+      <td>
+        10
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>"
+`;

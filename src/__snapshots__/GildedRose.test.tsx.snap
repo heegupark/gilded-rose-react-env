@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GildedRose should render <GildedRose /> 1`] = `
+"<div className=\\"App\\">
+  <Container fluid={false}>
+    <Row noGutters={false}>
+      <Col>
+        <Navbar bg=\\"light\\" expand={true} variant=\\"light\\" collapseOnSelect={false}>
+          <NavbarBrand href=\\"#home\\">
+            The Gilded Rose 
+          </NavbarBrand>
+        </Navbar>
+      </Col>
+    </Row>
+    <Row noGutters={false}>
+      <Col>
+        <WelcomeMessage />
+      </Col>
+    </Row>
+    <Row noGutters={false}>
+      <Col>
+        <Tabs defaultActiveKey=\\"sale\\" id=\\"uncontrolled-tab-example\\" variant=\\"tabs\\" mountOnEnter={false} unmountOnExit={false}>
+          <Tab eventKey=\\"sale\\" title=\\"On Sale(5)\\">
+            <Card body={false}>
+              <ShopItemTable items={{...}} />
+            </Card>
+          </Tab>
+          <Tab eventKey=\\"discount\\" title=\\"Discount(0)\\">
+            <Card body={false}>
+              <ShopItemTable items={{...}} />
+            </Card>
+          </Tab>
+        </Tabs>
+        <Button onClick={[Function: bound updateShowQuality]} variant=\\"primary\\" active={false} disabled={false}>
+          Update Quality
+        </Button>
+      </Col>
+    </Row>
+  </Container>
+</div>"
+`;
