@@ -8,17 +8,14 @@ export interface Item {
     quality: number;
 }
 
-interface ShopItemTableProps {
+interface DiscountItemTableProps {
     items: Item[]
 }
 
 function getItemRows(items: Item[]) {
-    return map(items, (item: Item, index: number) => {
+    return map(items, (item: Item) => {
         return (
-            <tr
-                key={index}
-                className="item-row"
-            >
+            <tr className="item-row">
                 <td>{item.name}</td>
                 <td>{item.quality}</td>
                 <td>{item.sellIn}</td>
@@ -27,7 +24,7 @@ function getItemRows(items: Item[]) {
     });
 }
 
-function ShopItemTable(props: ShopItemTableProps) {
+function DiscountItemTable(props: DiscountItemTableProps) {
     const { items } = props;
 
     return (
@@ -46,4 +43,4 @@ function ShopItemTable(props: ShopItemTableProps) {
     );
 }
 
-export default ShopItemTable;
+export default DiscountItemTable;
